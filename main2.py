@@ -154,6 +154,9 @@ class Customer(Bank):
         else:
             self.__balance -= number
 
+    def asa (self):
+        print('qwerty')
+
 
 Asan = Customer('Asan', 1, True, 120)
 # Asan.get_info()
